@@ -38,7 +38,7 @@ export default function Projects(){
                             <div className="flex flex-col xl:flex-row justify-center items-center xl:items-start gap-4 xl:gap-8 px-4 xl:px-12 py-5 md:py-10">                                     
                                 
                                 <div className="relative">
-                                    <Image src={project.image} alt={project.company} width={875} height={550} priority />
+                                    <Image src={project.image} alt={project.company} width={875} height={550} />
                                     <h4 className="uppercase text-sm lg:text-[28px] text-secondary-950 font-bold bg-primary-600/50 backdrop-blur-sm px-[14px] lg:px-8 py-4 lg:py-10 absolute top-4 lg:top-10 right-0 lg:right-8">{project.company}</h4>
                                 </div>
                                 
