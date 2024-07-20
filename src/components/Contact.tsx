@@ -20,14 +20,14 @@ export default function Contact(){
                         <div className="flex flex-row gap-3 justify-center items-center px-12 py-12 md:py-24 border-b lg:border-e border-primary-600 ">
                             <Image src={building} alt="" className="w-12 md:w-20"/>
                             <div>
-                                <h4 className="text-xs md:text-xl font-bold text-primary-600">Address</h4>
+                                <h3 className="text-xs md:text-xl font-bold text-primary-600">Address</h3>
                                 <Link href="#" target="_blank" aria-label="Address"><address className="text-xs md:text-base text-white hover:text-primary-100 transition-colors not-italic">99 North Street, World</address></Link>
                             </div>
                         </div>
                         <div className="flex flex-row gap-3 justify-center items-center px-12 py-12 md:py-24 border-b border-primary-600 ">
                             <Image src={email} alt="" className="w-11 md:w-16" />
                             <div>
-                                <h4 className="text-xs md:text-xl font-bold text-primary-600">EMAIL</h4>
+                                <h3 className="text-xs md:text-xl font-bold text-primary-600">EMAIL</h3>
                                 <Link href="#" target="_blank" aria-label="Email"><span className="text-xs md:text-base text-white hover:text-primary-100 transition-colors">info@ninenine-corp.com</span></Link>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ export default function Contact(){
                                 <Image src={phone} alt="Contact us" className="w-4 md:w-12" />
                             </Link>
                             <div>
-                                <h4 className="text-xs md:text-xl font-bold text-primary-600">CONTACT US</h4>
+                                <h3 className="text-xs md:text-xl font-bold text-primary-600">CONTACT US</h3>
                                 <Link href="#" target="_blank" aria-label="Phone"><span className="text-xs md:text-base text-white hover:text-primary-100 transition-colors">+123-456-7890</span></Link>
                             </div>
                         </div>

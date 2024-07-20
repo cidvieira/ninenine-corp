@@ -13,6 +13,7 @@ export const NextArrow: FC<SliderArrows> = (props) => {
             <button
                 onClick={onClick}
                 className="text-secondary-950"
+                aria-label="Next"
             >
                 <ChevronRightIcon className="h-8 md:h-16"/>  
             </button>
@@ -27,6 +28,7 @@ export const PrevArrow: FC<SliderArrows> = (props) => {
             <button
                 onClick={onClick}
                 className="text-secondary-950"
+                aria-label="Previous"
             >
                 <ChevronLeftIcon className="h-8 md:h-16"/>
             </button>
