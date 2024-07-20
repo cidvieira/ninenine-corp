@@ -44,7 +44,7 @@ export default function Contact(){
                             </div>
                         </div>
                         <div className="flex flex-row justify-center items-center gap-3 py-8 md:py-24">
-                            <Link href="tel:01138186830" target="_blank" className="size-8 md:size-28 bg-white hover:bg-primary-100 rounded-full flex place-content-center">
+                            <Link href="#" target="_blank" className="size-8 md:size-28 bg-white hover:bg-primary-100 rounded-full flex place-content-center">
                                 <Image src={phone} alt="" className="w-4 md:w-12" />
                             </Link>
                             <div>
