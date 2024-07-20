@@ -16,7 +16,7 @@ export default function Header(){
             <div className="flex lg:flex-1">
                 <Link href="/" className="text-4xl font-bold">NineNine.<span className="text-primary-700">Corp</span></Link>
             </div>
-            <div className="hidden lg:block">
+            <div className="hidden xl:block">
                 <ul className="flex">
                     {titleLink.map((item, index) => (
                         <li key={index} className="px-3">
@@ -45,7 +45,7 @@ export default function Header(){
                     </li>                 
                 </ul>
             </div>
-            <div className="flex lg:hidden">
+            <div className="flex xl:hidden">
                 <button
                     type="button"
                     className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-secondary-700"

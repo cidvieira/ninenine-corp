@@ -14,7 +14,7 @@ export default function Contact(){
                 <div>
                     <div className="flex flex-col lg:grid lg:grid-cols-3">
                         <div className="flex flex-col gap-4 justify-center items-center lg:items-start px-12 py-12 md:py-24 border-b lg:border-e border-primary-600">
-                            <h2 className="text-white text-5xl font-bold">NineNine.<span className="text-primary-700">Corp</span></h2>
+                            <h2 className="text-white text-3xl md:text-5xl font-bold">NineNine.<span className="text-primary-700">Corp</span></h2>
                             <p className="text-base md:text-lg text-white">Lorem ipsum dolor sit amet.</p>
                         </div>
                         <div className="flex flex-row gap-3 justify-center items-center px-12 py-12 md:py-24 border-b lg:border-e border-primary-600 ">
