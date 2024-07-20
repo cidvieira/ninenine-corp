@@ -6,7 +6,6 @@ import Services from "@/components/Services";
 import Projects from "@/components/Projects";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
-import ButtonBackToSite from "@/components/ButtonBackToSite";
 
 
 export default function Home() {
@@ -30,8 +29,6 @@ export default function Home() {
       <Team />
 
       <Testimonials />
-
-      <ButtonBackToSite />      
 
     </main>
   );
