@@ -1,0 +1,10 @@
+.bgi{
+    background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0, 0.9),
+    rgb(101, 103, 101, 0.1)
+  ),
+  url('../../../public/images/ninenine-corporation.jpg');
+  background-size: cover;
+  background-position: center ;
+}
