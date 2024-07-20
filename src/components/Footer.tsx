@@ -9,7 +9,7 @@ export default function Footer(){
 
             <div className="bg-secondary-950 px-4 lg:px-8 py-5">
                 <p className="text-[10px] text-white">
-                    ©2024 NineNine.Corp | All Rights Reserved | Designed & Built by <Link href="https://cidvieira.com/" className="text-primary-600 font-bold" target="_blank">Cid Vieira</Link>
+                    ©2024 NineNine.Corp | All Rights Reserved | Designed & Built by <Link href="https://cidvieira.com/" className="text-primary-600 hover:text-primary-100 transition-colors font-bold" target="_blank">Cid Vieira</Link>
                 </p>
             </div>
             

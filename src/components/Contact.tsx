@@ -21,14 +21,14 @@ export default function Contact(){
                             <Image src={building} alt="" className="w-12 md:w-20"/>
                             <div>
                                 <h4 className="text-xs md:text-xl font-bold text-primary-600">Address</h4>
-                                <Link href="#" target="_blank"><address className="text-xs md:text-base text-white hover:text-primary-100 transition-colors not-italic">99 North Street, World</address></Link>
+                                <Link href="#" target="_blank" aria-label="Address"><address className="text-xs md:text-base text-white hover:text-primary-100 transition-colors not-italic">99 North Street, World</address></Link>
                             </div>
                         </div>
                         <div className="flex flex-row gap-3 justify-center items-center px-12 py-12 md:py-24 border-b border-primary-600 ">
                             <Image src={email} alt="" className="w-11 md:w-16" />
                             <div>
                                 <h4 className="text-xs md:text-xl font-bold text-primary-600">EMAIL</h4>
-                                <Link href="#" target="_blank"><span className="text-xs md:text-base text-white hover:text-primary-100 transition-colors">info@ninenine-corp.com</span></Link>
+                                <Link href="#" target="_blank" aria-label="Email"><span className="text-xs md:text-base text-white hover:text-primary-100 transition-colors">info@ninenine-corp.com</span></Link>
                             </div>
                         </div>
                     </div>
@@ -37,19 +37,19 @@ export default function Contact(){
                             <div className="flex flex-col gap-3">
                                 <h4 className="text-xs md:text-xl font-bold text-primary-600">FOLLOW US</h4>
                                 <div className="flex flex-row gap-4">
-                                    <Link href="https://www.facebook.com/" target="_blank" className="size-8 md:size-28 bg-white hover:bg-primary-100 rounded-full flex place-content-center items-center"><Image src={facebook} alt="" className="w-auto h-4 md:h-12 " /></Link>
-                                    <Link href="https://www.instagram.com/" target="_blank" className="size-8 md:size-28 bg-white hover:bg-primary-100 rounded-full flex place-content-center"><Image src={instagram} alt="" className="w-4 md:w-12" /></Link>
-                                    <Link href="https://www.linkedin.com/" target="_blank" className="size-8 md:size-28 bg-white hover:bg-primary-100 rounded-full flex place-content-center"><Image src={linkedin} alt="" className="w-4 md:w-12" /></Link>
+                                    <Link href="https://www.facebook.com/" target="_blank" aria-label="Facebook" className="size-8 md:size-28 bg-white hover:bg-primary-100 rounded-full flex place-content-center items-center transition-colors"><Image src={facebook} alt="" className="w-auto h-4 md:h-12 " /></Link>
+                                    <Link href="https://www.instagram.com/" target="_blank" aria-label="Instagram" className="size-8 md:size-28 bg-white hover:bg-primary-100 rounded-full flex place-content-center transition-colors"><Image src={instagram} alt="" className="w-4 md:w-12" /></Link>
+                                    <Link href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn" className="size-8 md:size-28 bg-white hover:bg-primary-100 rounded-full flex place-content-center transition-colors"><Image src={linkedin} alt="" className="w-4 md:w-12" /></Link>
                                 </div>
                             </div>
                         </div>
                         <div className="flex flex-row justify-center items-center gap-3 py-8 md:py-24">
-                            <Link href="#" target="_blank" className="size-8 md:size-28 bg-white hover:bg-primary-100 rounded-full flex place-content-center">
-                                <Image src={phone} alt="" className="w-4 md:w-12" />
+                            <Link href="#" target="_blank" aria-label="Contact us" className="size-8 md:size-28 bg-white hover:bg-primary-100 rounded-full flex place-content-center transition-colors">
+                                <Image src={phone} alt="Contact us" className="w-4 md:w-12" />
                             </Link>
                             <div>
                                 <h4 className="text-xs md:text-xl font-bold text-primary-600">CONTACT US</h4>
-                                <Link href="#" target="_blank"><span className="text-xs md:text-base text-white hover:text-primary-100 transition-colors">+123-456-7890</span></Link>
+                                <Link href="#" target="_blank" aria-label="Phone"><span className="text-xs md:text-base text-white hover:text-primary-100 transition-colors">+123-456-7890</span></Link>
                             </div>
                         </div>
                     </div>

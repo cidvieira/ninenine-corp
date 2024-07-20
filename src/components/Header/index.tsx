@@ -24,7 +24,7 @@ export default function Header(){
                                 href={item.path} 
                                 className={`
                                 text-secondary-700 relative z-20 hover:text-secondary-950
-                                before:-z-10 before:absolute before:w-full before:h-[5px] before:left-0 before:bottom-1 hover:before:bg-primary-100
+                                before:-z-10 before:absolute before:w-full before:h-[5px] before:left-0 before:bottom-1 hover:before:bg-primary-100 before:transition-colors
                                 ${activeSection === item.path.substring(1) ? "text-secondary-950 before:bg-primary-100" : ""}
                                 `}
                             >  
@@ -36,8 +36,8 @@ export default function Header(){
                         <Link 
                             href="#contact" 
                             className='
-                                bg-primary-600 text-secondary-950 font-bold py-4 px-10
-                                hover:bg-primary-100
+                                bg-primary-600 text-secondary-950 font-medium py-4 px-10
+                                 transition-colors hover:text-white
                             '
                         >
                             CONTACT US

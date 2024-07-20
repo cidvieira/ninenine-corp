@@ -23,9 +23,9 @@ export default function Hero(){
                             </div>
                             <p className="text-white text-xs lg:text-[1rem] ps-9 pt-2 lg:ps-[52px]">Development of exclusives products and projects</p>
                         </div>
-                        <button className="bg-primary-600 hover:bg-primary-100 min-w-[300px] px-7 md:px-10 py-4 lg:py-5 font-bold text-secondary-950">
-                            <Link href={"#servicos"}>EXPLORE OUR SERVICES</Link>
-                        </button>
+                        <Link href={"#services"} className="bg-primary-600 hover:text-white min-w-[300px] px-7 md:px-10 py-4 lg:py-5 font-semibold text-secondary-950 text-center transition-colors">
+                            EXPLORE OUR SERVICES
+                        </Link>                        
                     </div>
                 </div> 
             </div>
